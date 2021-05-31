@@ -1,6 +1,5 @@
-# send-emails-using-python
 # Send E-mails using Python
-# This project has been created by Shreeharan for the YouTube Channel Stark Intelligence
+#This project has been created by Shreeharan for the YouTube Channel Stark Intelligence
 
 Hello Guys... Welcome to new project. In this project, we'll be creating a program that allows us to send e-mails using Python.
 
