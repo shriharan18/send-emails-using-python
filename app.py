@@ -1,3 +1,4 @@
+# This project has been created by Shreeharan for the YouTube Channel Stark Intelligence
 import smtplib, ssl
 
 # inputs
