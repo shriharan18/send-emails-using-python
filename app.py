@@ -19,3 +19,5 @@ with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
     server.sendmail(sender_email, receiver_email, message)
 
     print("Message sent successfully!")
+else:
+    print("An error occured!")
