@@ -15,7 +15,13 @@ message = input_message
 
 context = ssl.create_default_context()
 with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
-    server.login(sender_email, password)
-    server.sendmail(sender_email, receiver_email, message)
+    
+    if sender_email and password and receiver_email and input_message != None:
 
-    print("Message sent successfully!")
+
+       server.login(sender_email, password)
+       server.sendmail(sender_email,             receiver_email, message)
+
+       print("Message sent successfully!")
+   else:
+       print("An error occured! Please try again later!")
